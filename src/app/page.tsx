@@ -1,5 +1,7 @@
-
 import Header from "../components/header"
+import Image from "next/image";
+import Mustafa from "../../assets/Mustafa.jpg"
+
 export default function Home() {
   return (
     <div>
@@ -24,10 +26,11 @@ export default function Home() {
       </div>
       
       <div className="image">
-        <img 
+        {/* <img 
           src="https://media.licdn.com/dms/image/v2/D4D35AQEtJ8JQDOL-PQ/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1710845738745?e=1728802800&v=beta&t=Ahgc87r-HLIwnDXZS70tc8Bk2Anf0fsYUTutj75X_cs" 
           alt="profile" 
-        />
+        /> */}
+        <Image src={Mustafa} alt="image" />
       </div>
     </div>
     </div>
